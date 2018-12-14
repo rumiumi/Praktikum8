@@ -9,7 +9,7 @@
 
 **Flowchart Program**
 
-[!flowchart1](https://github.com/rumiumi/praktikum8/blob/master/latihan1/Flowchart1.png)
+[!flowchart1](https://github.com/rumiumi/praktikum8/blob/master/Flowchart1.png)
 
 **Code program** 
 ```
@@ -50,7 +50,7 @@ return 0;
 
 **hasilnya**
 
-[!hasil1](https://github.com/rumiumi/praktikum8/blob/master/latihan1/hasil1.png)
+[!hasil1](https://github.com/rumiumi/praktikum8/blob/master/hasil1.png)
 
 
 ## Latihan2 : Modus dari Array
@@ -61,7 +61,7 @@ return 0;
 3. Membandingkan nilai variable HitungStatistik run;
 
 **Flowchart Program**
-[!flowchart2](https://github.com/rumiumi/praktikum8/blob/master/latihan2/Flowchart2.png)
+[!flowchart2](https://github.com/rumiumi/praktikum8/blob/master/Flowchart2.png)
 
 **Code program** 
 ```
@@ -137,7 +137,7 @@ return 0;
 ```
 
 **Pict program**
-[!hasil2](https://github.com/rumiumi/praktikum8/blob/master/latihan2/hasil2.png)
+[!hasil2](https://github.com/rumiumi/praktikum8/blob/master/hasil2.png)
 
 ## Latihan3 : Perkalian 2 Matriks
 
@@ -150,7 +150,7 @@ return 0;
 6. Tampilkan hasil perkalian
 
 **Flowchart Program**
-[!flowchart3](https://github.com/rumiumi/praktikum8/blob/master/latihan3/Flowchart3.png)
+[!flowchart3](https://github.com/rumiumi/praktikum8/blob/master/Flowchart3.png)
 
 **Code program** 
 ```
@@ -256,7 +256,7 @@ void cetak_data(int kali[][10], int baris1, int kolom2)
 ```
 
 **Pict program**
-[!hasil3](https://github.com/rumiumi/praktikum8/blob/master/latihan3/hasil3.png)
+[!hasil3](https://github.com/rumiumi/praktikum8/blob/master/hasil3.png)
 
 ## Latihan 4 : Transpose Matriks
 
@@ -267,7 +267,7 @@ void cetak_data(int kali[][10], int baris1, int kolom2)
 4. Tampilkan hasil transpose matriks
 
 **Flowchart Program**
-[!flowchart4](https://github.com/rumiumi/praktikum8/blob/master/latihan4/Flowchart4.png)
+[!flowchart4](https://github.com/rumiumi/praktikum8/blob/master/Flowchart4.png)
 
 **Code program** 
 ```
@@ -317,4 +317,4 @@ int main(){
 ```
 
 **Pict program**
-[!hasil4](https://github.com/rumiumi/praktikum8/blob/master/latihan4/hasil4.png)
+[!hasil4](https://github.com/rumiumi/praktikum8/blob/master/hasil4.png)

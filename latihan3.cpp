@@ -9,18 +9,18 @@ int main()
 {
 	int matrix1[10][10], matrix2[10][10], kali[10][10], baris1, kolom1, baris2, kolom2, i, j, k;
 
-	cout << "Enter rows and column for first matrix: ";
+	cout << "Masukkan baris dan kolom untuk matriks 1: ";
 	cin >> baris1 >> kolom1;
 
-	cout << "Enter rows and column for second matrix: ";
+	cout << "Masukkan baris dan kolom untuk matriks 2: ";
 	cin >> baris2 >> kolom2;
 
 	while (kolom1 != baris2)
 	{
-		cout << "Error! column of first matrix not equal to row of second." << endl;
-		cout << "Enter rows and column for first matrix: ";
+		cout << "Error! Kolom dari matriks pertama tidak sama dengan matriks kedua." << endl;
+		cout << "Masukkan baris dan kolom untuk matriks 1: ";
 		cin >> baris1 >> kolom1;
-		cout << "Enter rows and column for second matrix: ";
+		cout << "Masukkan baris dan kolom untuk matriks 2: ";
 		cin >> baris2 >> kolom2;
 	}
 
@@ -36,22 +36,22 @@ int main()
 void input_data(int matrix1[][10], int matrix2[][10], int baris1, int kolom1, int baris2, int kolom2)
 {
 	int i, j;
-	cout << endl << "Enter elements of matrix 1:" << endl;
+	cout << endl << "Masukkan isi dari matriks 1:" << endl;
 	for(i = 0; i < baris1; ++i)
 	{
 		for(j = 0; j < kolom1; ++j)
 		{
-			cout << "Enter elements a"<< i + 1 << j + 1 << ": ";
+			cout << "Isi kolom a"<< i + 1 << j + 1 << ": ";
 			cin >> matrix1[i][j];
 		}
 	}
 
-	cout << endl << "Enter elements of matrix 2:" << endl;
+	cout << endl << "Masukkan isi dari matriks 2:" << endl;
 	for(i = 0; i < baris2; ++i)
 	{
 		for(j = 0; j < kolom2; ++j)
 		{
-			cout << "Enter elements b" << i + 1 << j + 1 << ": ";
+			cout << "Isi kolom b" << i + 1 << j + 1 << ": ";
 			cin >> matrix2[i][j];
 		}
 	}
@@ -85,7 +85,7 @@ void cetak_data(int kali[][10], int baris1, int kolom2)
 {
 	int i, j;
 
-	cout << "Output Matrix:" << endl;
+	cout << "Output Matriks:" << endl;
 	for(i = 0; i < baris1; ++i)
 	{
 		for(j = 0; j < kolom2; ++j)

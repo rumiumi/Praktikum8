@@ -1,54 +1,33 @@
+/*Program mancari nilai minimum dan maksimum*/
 #include <iostream>
-
+#include <conio.h>
 using namespace std;
-
-void input_data(int a[], int n){
-    for (int i=0; i<n; i++){
-        cout << "Masukkan data ke-" << i << ": ";
-        cin >> a[i];
-    }
-}
-
-void cetak_data(const int a[], int n){
-    for (int i=0; i<n; i++){
-        cout << "Data ke-" << i << ": " << a[i] << endl;
-    }
-}
-
-int nilaiMaksimum(apvector<int>&array)
+main()
 {
-    int n;
-    int max = array[0];
+   //deklarasi
+    int nilai[3],a,min,maks;
 
-    for(int i=1; i<n; i++)
-    {
-        if(array[i] > max)
-            max = array(i)
+   //input-output array
+    for(a=1;a<=5;a++){
+   cout<<"Masukkan nilai ke-"<<a<<":";
+   cin>>nilai[a];
     }
-    return max;
-}
 
-int nilaiMinimum(apvector<int>&array)
-{
-    int n;
-    int min = array[0];
+   //proses looping array
+   min = nilai[1];
+   maks = nilai[1];
+   for(a=1;a<=5;a++){
+   if(nilai[a] < min){
+   min = nilai[a];
+   } else if(nilai[a] > maks){
+   maks = nilai[a];
+   }
+   }
 
-    for(int i=1; i<jumlah; i++)
-    {
-        if(array[i] < min)
-            min = array(i)
-    }
-    return min;
-}
+   //output minimum dan maksimum
+   cout<<"nilai minimum adalah : "<<min<<endl;
+   cout<<"nilai maksimum adalah : "<<maks<<endl;
 
-int main(){
-    int n;
-    int data[10];
-
-    input_data(data, n);
-    nilaiMaksimum();
-    cout << max;
-    nilaiMinimum();
-    cout << min;
-    return 0;
+getch();
+return 0;
 }
